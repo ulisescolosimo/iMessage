@@ -2,8 +2,8 @@ import { CreateUsernameResponse, GraphQLContext } from "../../util/types";
 
 const resolvers = {
     Query: {
-        searchUsers: () => {
-
+        searchUsers: (_: any, args: { username: string }, context: GraphQLContext) => {
+            
         }
     },
     Mutation: {
