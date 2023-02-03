@@ -9,7 +9,6 @@ interface ChatProps {
 }
 
 const Chat: React.FC<ChatProps> = ({ session }) => {
-  console.log(session)
   return (
     <Flex height="100vh">
       <ConversationsWrapper session={session} />

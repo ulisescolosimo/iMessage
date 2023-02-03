@@ -12,8 +12,6 @@ const Home: NextPage = () => {
     document.dispatchEvent(event);
   };
 
-  console.log(session)
-
   return (
     <Box>
       {session?.user?.username ? (
